@@ -24,7 +24,9 @@ html, body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  background-color: #efe;
+  background-color: #ddffee;
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
 }
 
 .container {
@@ -33,6 +35,175 @@ html, body {
   height: 300px;
   margin: 1.5rem ;
   padding: 3.5rem auto;
+}
+
+/* Venice */
+.gradient:nth-child(1) {
+  border: .3rem solid #2b2b2b;
+  width: 300px;
+  height: 300px;
+  margin: 1.5rem ;
+  padding: 3.5rem auto;
+  background: linear-gradient(
+    to right,
+    #6190e8,
+    #a7bfe8
+  );
+}
+
+/* Cool Sky */
+.gradient:nth-child(2) {
+  border: .3rem solid #2b2b2b;
+  width: 300px;
+  height: 300px;
+  margin: 1.5rem ;
+  padding: 3.5rem auto;
+  background: linear-gradient(
+    to right,
+    #2880b9,
+    #6dd5fa
+  );
+}
+
+/* Frost */
+.gradient:nth-child(3) {
+  border: .3rem solid #2b2b2b;
+  width: 300px;
+  height: 300px;
+  margin: 1.5rem ;
+  padding: 3.5rem auto;
+  background: linear-gradient(
+    to right,
+    #000428,
+    #004e92
+  );
+}
+
+/* Dania */
+.gradient:nth-child(4) {
+  border: .3rem solid #2b2b2b;
+  width: 300px;
+  height: 300px;
+  margin: 1.5rem ;
+  padding: 3.5rem auto;
+  background: linear-gradient(
+    to right,
+    #c193c5,
+    #7bc6cc
+  );
+}
+
+/* Grad Gray */
+.gradient:nth-child(5) {
+  border: .3rem solid #2b2b2b;
+  width: 300px;
+  height: 300px;
+  margin: 1.5rem ;
+  padding: 3.5rem auto;
+  background: linear-gradient(
+    to right,
+    #bdc3c7,
+    #2c3e50
+  );
+}
+
+
+/* Red Velvet */
+.gradient:nth-child(6) {
+  border: .3rem solid #2b2b2b;
+  width: 300px;
+  height: 300px;
+  margin: 1.5rem ;
+  padding: 3.5rem auto;
+  background: linear-gradient(
+    to right,
+    #650404,
+    #ffd6d6
+  );
+}
+
+/* Malilbu Beach */
+.gradient:nth-child(7) {
+  border: .3rem solid #2b2b2b;
+  width: 300px;
+  height: 300px;
+  margin: 1.5rem ;
+  padding: 3.5rem auto;
+  background: linear-gradient(
+    to right,
+    #4facf3,
+    #00f2fe
+  );
+}
+
+/* Aqua Splash */
+.gradient:nth-child(8) {
+  border: .3rem solid #2b2b2b;
+  width: 300px;
+  height: 300px;
+  margin: 1.5rem ;
+  padding: 3.5rem auto;
+  background: linear-gradient(
+    to right,
+    #13547a,
+    #80d0c7
+  );
+}
+
+/* Millenium Pine */
+.gradient:nth-child(9) {
+  border: .3rem solid #2b2b2b;
+  width: 300px;
+  height: 300px;
+  margin: 1.5rem ;
+  padding: 3.5rem auto;
+  background: linear-gradient(
+    to right,
+    #50cc7f,
+    #f5d100
+  );
+}
+
+/* Happy Memories */
+.gradient:nth-child(10) {
+  border: .3rem solid #2b2b2b;
+  width: 300px;
+  height: 300px;
+  margin: 1.5rem ;
+  padding: 3.5rem auto;
+  background: linear-gradient(
+    to right,
+    #ff5858,
+    #f09819
+  );
+}
+
+/* Vicious Stance */
+.gradient:nth-child(11) {
+  border: .3rem solid #2b2b2b;
+  width: 300px;
+  height: 300px;
+  margin: 1.5rem ;
+  padding: 3.5rem auto;
+  background: linear-gradient(
+    to right,
+    #29323c,
+    #485563
+  );
+}
+
+/* Lush */
+.gradient:nth-child(12) {
+  border: .3rem solid #2b2b2b;
+  width: 300px;
+  height: 300px;
+  margin: 1.5rem ;
+  padding: 3.5rem auto;
+  background: linear-gradient(
+    to right,
+    #1aa37a,
+    #9dffb3
+  );
 }
 
 a {
