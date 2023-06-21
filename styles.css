@@ -285,6 +285,28 @@ a:active {
   color: #262626;
 }
 
+.text > .code {
+  text-align: center;
+  display: block;
+  font-size: 1.6rem;
+  margin: 10rem auto;
+  padding: 1.5rem;
+  color: #fbfbfb;
+  font-family: monospace;
+  border: .2rem solid #cdcdcd;
+  border-radius: var(--bdrs);
+}
+
+.code::selection {
+  background-color: #fbfbfb;
+  color: #262626;
+}
+
+.inline-code {
+  background-color: #404040;
+  border-radius: var(--bdrs);
+}
+
 .footer {
   background-color:#390255;
   width: 100%;
