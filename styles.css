@@ -75,124 +75,98 @@ a:active {
 }
 /* Nav Bar Menu functionalities */
 
-/* .linear {
-  margin: 3.5rem auto 0;
-  max-width: 1200px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  background-color: #ddffee;
-  padding-top: 4.5rem;
-  padding-bottom: 4.5rem;
-} */
 
- 
+/* Linear-gradient colors */
 
-/* Venice */
-.linear__div:nth-child(1) {
-  border: .3rem solid #2b2b2b;
+/* Northern Lights */
+.linear__div:nth-of-type(1) {
   width: 300px;
   height: 300px;
-  margin: 1.5rem ;
-  padding: 3.5rem auto;
+  margin: 1.5rem;
   background: linear-gradient(
     to right,
-    #6190e8,
-    #a7bfe8
+    #0f0c29,
+    #302b63
   );
 }
 
-/* Cool Sky */
-.linear__div:nth-child(2) {
-  border: .3rem solid #2b2b2b;
+/* Deep Ocean */
+.linear__div:nth-of-type(2) {
   width: 300px;
   height: 300px;
   margin: 1.5rem ;
-  padding: 3.5rem auto;
   background: linear-gradient(
     to right,
-    #2880b9,
-    #6dd5fa
+    #1a2980,
+    #26d0ce
   );
 }
 
-/* Frost */
-.linear__div:nth-child(3) {
-  border: .3rem solid #2b2b2b;
+/* Late Sunset */
+.linear__div:nth-of-type(3) {
   width: 300px;
   height: 300px;
   margin: 1.5rem ;
-  padding: 3.5rem auto;
   background: linear-gradient(
     to right,
-    #000428,
-    #004e92
+    #f12711,
+    #f5af19
   );
 }
 
-/* Dania */
-.linear__div:nth-child(4) {
-  border: .3rem solid #2b2b2b;
+/* Spring Garden */
+.linear__div:nth-of-type(4) {
   width: 300px;
   height: 300px;
   margin: 1.5rem ;
-  padding: 3.5rem auto;
   background: linear-gradient(
     to right,
-    #c193c5,
-    #7bc6cc
+    #56ab2f,
+    #a8e063
   );
 }
 
-/* Grad Gray */
-.linear__div:nth-child(5) {
-  border: .3rem solid #2b2b2b;
+/* Starry Sky */
+.linear__div:nth-of-type(5) {
   width: 300px;
   height: 300px;
   margin: 1.5rem ;
-  padding: 3.5rem auto;
   background: linear-gradient(
     to right,
-    #bdc3c7,
-    #2c3e50
+    #0f2027,
+    #203a43
   );
 }
 
-/* Red Velvet */
-.linear__div:nth-child(6) {
-  border: .3rem solid #2b2b2b;
+/* Night Blossom */
+.linear__div:nth-of-type(6) {
   width: 300px;
   height: 300px;
   margin: 1.5rem ;
-  padding: 3.5rem auto;
   background: linear-gradient(
     to right,
-    #650404,
-    #ffd6d6
+    #da22ff,
+    #9733ee
   );
 }
 
-/* Malilbu Beach */
-.linear__div:nth-child(7) {
-  border: .3rem solid #2b2b2b;
+/* Golden Fields */
+.linear__div:nth-of-type(7) {
   width: 300px;
   height: 300px;
   margin: 1.5rem ;
-  padding: 3.5rem auto;
   background: linear-gradient(
     to right,
-    #4facf3,
-    #00f2fe
+    #ffcc33,
+    #ffb347
   );
 }
 
-/* Aqua Splash */
-.linear__div:nth-child(8) {
-  border: .3rem solid #2b2b2b;
+/* Pastel Harmony */
+.linear__div:nth-of-type(8) {
   width: 300px;
   height: 300px;
   margin: 1.5rem ;
-  padding: 3.5rem auto;
   background: linear-gradient(
     to right,
     #13547a,
@@ -200,59 +174,51 @@ a:active {
   );
 }
 
-/* Millenium Pine */
-.linear__div:nth-child(9) {
-  border: .3rem solid #2b2b2b;
+/* Polar Aurora */
+.linear__div:nth-of-type(9) {
   width: 300px;
   height: 300px;
   margin: 1.5rem ;
-  padding: 3.5rem auto;
   background: linear-gradient(
     to right,
-    #50cc7f,
-    #f5d100
+    #00b09b,
+    #96c93d
   );
 }
 
-/* Happy Memories */
-.linear__div:nth-child(10) {
-  border: .3rem solid #2b2b2b;
+/* Seaside Breeze */
+.linear__div:nth-of-type(10) {
   width: 300px;
   height: 300px;
   margin: 1.5rem ;
-  padding: 3.5rem auto;
   background: linear-gradient(
     to right,
-    #ff5858,
-    #f09819
+    #00d2ff,
+    #3a7bd5
   );
 }
 
-/* Vicious Stance */
-.linear__div:nth-child(11) {
-  border: .3rem solid #2b2b2b;
+/* Majestic Mountains */
+.linear__div:nth-of-type(11) {
   width: 300px;
   height: 300px;
   margin: 1.5rem ;
-  padding: 3.5rem auto;
   background: linear-gradient(
     to right,
-    #29323c,
-    #485563
+    #6441a5,
+    #2a0845
   );
 }
 
-/* Lush */
-.linear__div:nth-child(12) {
-  border: .3rem solid #2b2b2b;
+/* Deep Night */
+.linear__div:nth-of-type(12) {
   width: 300px;
   height: 300px;
   margin: 1.5rem ;
-  padding: 3.5rem auto;
   background: linear-gradient(
     to right,
-    #1aa37a,
-    #9dffb3
+    #000000,
+    #434343
   );
 }
 
@@ -260,7 +226,7 @@ a:active {
 .linear__div:hover {
   cursor: pointer;
   transition: .3s ease;
-  transform: scale(1.02);
+  transform: scale(1.05);
 }
 /* Gradient Functionalities */
 
@@ -278,6 +244,7 @@ a:active {
   max-width: 120rem;
   display: flex;
   justify-content: center;
+  flex-direction: row;
   flex-wrap: wrap;
   background-color: #ddffee;
   padding-top: 4.5rem;
@@ -299,8 +266,6 @@ a:active {
   width: 90%;
   margin: 0 auto;
 }
-/* Patterns classes */
-
 
 .text {
   font-size: 2.4rem;
@@ -342,6 +307,8 @@ a:active {
   background-color: #404040;
   border-radius: var(--bdrs);
 }
+/* Patterns classes */
+
 
 .footer {
   background-color:#390255;
