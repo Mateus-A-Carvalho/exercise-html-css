@@ -1,5 +1,5 @@
 :root {
-  --bdrs: .3rem;
+  --bdrs: .5rem;
 }
 
 * {
@@ -18,9 +18,15 @@ html, body {
   height: 100vh;
 }
 
+#top {
+  position: relative;
+  top: 0;
+}
+
+/* Nav Bar Menu settings */
 .menu {
   width: 100%;
-  height: 4.5rem;
+  height: 5rem;
   flex-flow: row wrap;
   position: fixed;
   top: 0;
@@ -29,42 +35,47 @@ html, body {
 }
 
 .menu__list {
+  max-width: 120rem;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  align-items: center;
   height: 100%;
 }
 
-li.menu__list-items {
-  margin: .5rem;
-  padding: .5rem;
+.menu__list-items {
   list-style: none;
-  font-size: 1.8rem;
-  align-items: center;
-  border-radius: 0.3rem;
-  border: 2px solid #00b300;
+  border: .1rem solid #00b300;
+  border-radius: var(--bdrs);
+  margin: 1rem;
 }
 
-li.menu__list-items:hover {
-  background-color: #8870e8;
-  transition: 300ms ease-in-out;
-}
-
-li.menu__list-items:active {
-  background-color: #fbfbfb;
-}
-
-a {
+li.menu__list-items a {
+  display: block;
+  font-size: 1.6rem;
+  padding: 1rem;
   text-decoration: none;
   color: #f3f3f3;
-  padding: .5rem;
   text-transform: uppercase;
+}
+/* Nav Bar Menu settings */
+
+
+/* Nav Bar Menu functionalities */
+li.menu__list-items:hover {
+  background-color: #8870e8;
+  transition: .25s ease-in-out;
+}
+
+li.menu__list-items a:active {
+  background-color: #fbfbfb;
 }
 
 a:active {
   color: #2b2b2b;
 }
+/* Nav Bar Menu functionalities */
 
-.div-area {
+.linear {
   margin: 3.5rem auto 0;
   max-width: 1200px;
   display: flex;
@@ -75,16 +86,10 @@ a:active {
   padding-bottom: 4.5rem;
 }
 
-.container {
-  border: .3rem solid #2b2b2b;
-  width: 300px;
-  height: 300px;
-  margin: 1.5rem ;
-  padding: 3.5rem auto;
-}
+ 
 
 /* Venice */
-.gradient:nth-child(1) {
+.linear__div:nth-child(1) {
   border: .3rem solid #2b2b2b;
   width: 300px;
   height: 300px;
@@ -98,7 +103,7 @@ a:active {
 }
 
 /* Cool Sky */
-.gradient:nth-child(2) {
+.linear__div:nth-child(2) {
   border: .3rem solid #2b2b2b;
   width: 300px;
   height: 300px;
@@ -112,7 +117,7 @@ a:active {
 }
 
 /* Frost */
-.gradient:nth-child(3) {
+.linear__div:nth-child(3) {
   border: .3rem solid #2b2b2b;
   width: 300px;
   height: 300px;
@@ -126,7 +131,7 @@ a:active {
 }
 
 /* Dania */
-.gradient:nth-child(4) {
+.linear__div:nth-child(4) {
   border: .3rem solid #2b2b2b;
   width: 300px;
   height: 300px;
@@ -140,7 +145,7 @@ a:active {
 }
 
 /* Grad Gray */
-.gradient:nth-child(5) {
+.linear__div:nth-child(5) {
   border: .3rem solid #2b2b2b;
   width: 300px;
   height: 300px;
@@ -155,7 +160,7 @@ a:active {
 
 
 /* Red Velvet */
-.gradient:nth-child(6) {
+.linear__div:nth-child(6) {
   border: .3rem solid #2b2b2b;
   width: 300px;
   height: 300px;
@@ -169,7 +174,7 @@ a:active {
 }
 
 /* Malilbu Beach */
-.gradient:nth-child(7) {
+.linear__div:nth-child(7) {
   border: .3rem solid #2b2b2b;
   width: 300px;
   height: 300px;
@@ -183,7 +188,7 @@ a:active {
 }
 
 /* Aqua Splash */
-.gradient:nth-child(8) {
+.linear__div:nth-child(8) {
   border: .3rem solid #2b2b2b;
   width: 300px;
   height: 300px;
@@ -197,7 +202,7 @@ a:active {
 }
 
 /* Millenium Pine */
-.gradient:nth-child(9) {
+.linear__div:nth-child(9) {
   border: .3rem solid #2b2b2b;
   width: 300px;
   height: 300px;
@@ -211,7 +216,7 @@ a:active {
 }
 
 /* Happy Memories */
-.gradient:nth-child(10) {
+.linear__div:nth-child(10) {
   border: .3rem solid #2b2b2b;
   width: 300px;
   height: 300px;
@@ -225,7 +230,7 @@ a:active {
 }
 
 /* Vicious Stance */
-.gradient:nth-child(11) {
+.linear__div:nth-child(11) {
   border: .3rem solid #2b2b2b;
   width: 300px;
   height: 300px;
@@ -239,7 +244,7 @@ a:active {
 }
 
 /* Lush */
-.gradient:nth-child(12) {
+.linear__div:nth-child(12) {
   border: .3rem solid #2b2b2b;
   width: 300px;
   height: 300px;
@@ -252,19 +257,45 @@ a:active {
   );
 }
 
-.gradient:hover {
+/* Gradient Functionalities */
+.linear__div:hover {
   cursor: pointer;
   transition: .3s ease;
   transform: scale(1.02);
 }
+/* Gradient Functionalities */
 
 
+/* Patterns classes */
 .content {
-  max-width: 1200px;
+  max-width: 120rem;
   margin: 2rem auto;
   background-color: #262626;
   border-radius: var(--bdrs);
 }
+
+.content-color {
+  margin: 3.5rem auto 0;
+  max-width: 120rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #ddffee;
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
+}
+
+.heading-colors {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 6rem;
+  margin: 0;
+  margin-bottom: 3rem;
+  color: #423D3C;
+}
+/* Patterns classes */
+
 
 .text {
   font-size: 2.4rem;
@@ -311,7 +342,7 @@ a:active {
   background-color:#390255;
   width: 100%;
   height: 15rem;
-  padding: relative;
+  /* padding: relative; */
   bottom: 0;
 }
 
