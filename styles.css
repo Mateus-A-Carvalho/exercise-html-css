@@ -77,7 +77,6 @@ a:active {
 
 
 /* Linear-gradient colors */
-
 /* Northern Lights */
 .linear__div:nth-of-type(1) {
   width: 300px;
@@ -221,9 +220,190 @@ a:active {
     #434343
   );
 }
+/* Linear-gradient colors */
+
+/* radial-gradient colors */
+
+/* Sunrise */
+.radial__div:nth-of-type(1) {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin: 1.5rem ;
+  background: radial-gradient(
+    circle,
+    #ffad00 0%,
+    #ffb766 50%
+  );
+}
+
+/* Ocean Breeze */
+.radial__div:nth-of-type(2) {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin: 1.5rem ;
+  background: radial-gradient(
+    circle,
+    #00a8e8 0%,
+    #66d0ff 50%
+  );
+}
+
+/* Summer Meadow */
+.radial__div:nth-of-type(3) {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin: 1.5rem ;
+  background: radial-gradient(
+    circle,
+    #a8d838 0%,
+    #c7ff6b 50%
+  );
+}
+
+/* Twilight Sky */
+.radial__div:nth-of-type(4) {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin: 1.5rem ;
+  background: radial-gradient(
+    circle,
+    #24234d 0%,
+    #5e5371 50%
+  );
+}
+
+/* Golden Glow */
+.radial__div:nth-of-type(5) {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin: 1.5rem ;
+  background: radial-gradient(
+    circle,
+    #ffc800 0%,
+    #ffde66 50%
+  );
+}
+
+/* Pink Paradise */
+.radial__div:nth-of-type(6) {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin: 1.5rem ;
+  background: radial-gradient(
+    circle,
+    #ff70a6 0%,
+    #ff94c2 50%
+  );
+}
+
+/* Autumn Leaves */
+.radial__div:nth-of-type(7) {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin: 1.5rem ;
+  background: radial-gradient(
+    circle,
+    #e65100 0%,
+    #ff7d33 50%
+  );
+}
+
+/* Serene Lake   */
+.radial__div:nth-of-type(8) {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin: 1.5rem ;
+  background: radial-gradient(
+    circle,
+    #008080 0%,
+    #00bfbf 50%
+  );
+}
+
+/* Violet Dreams */
+.radial__div:nth-of-type(9) {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin: 1.5rem ;
+  background: radial-gradient(
+    circle,
+    #5b247a 0%,
+    #a75bc1 50%
+  );
+}
+
+/* Desert Sands */
+.radial__div:nth-of-type(10) {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin: 1.5rem ;
+  background: radial-gradient(
+    circle,
+    #d6ad67 0%,
+    #f0d4aa 50%
+  );
+}
+
+/* Midnight Fire */
+.radial__div:nth-of-type(11) {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin: 1.5rem ;
+  background: radial-gradient(
+    circle,
+    #a70f00 0%,
+    #ff331a 50%
+  );
+}
+
+/* Fresh Citrus */
+.radial__div:nth-of-type(12) {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin: 1.5rem ;
+  background: radial-gradient(
+    circle,
+    #d0e800 0%,
+    #f0ff66 50%
+  );
+}
+/* Radial-gradient colors */
+
+/* Conic-gradient colors */
+
+/*  */
+.conic__div:nth-of-type(1) {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-left: transparent;
+  border-right: transparent;
+  margin: 1.5rem ;
+  background: radial-gradient(
+    circle,
+    #d0e800 0%,
+    #f0ff66 50%
+  );
+}
 
 /* Gradient Functionalities */
-.linear__div:hover {
+.linear__div:hover,
+.radial__div:hover,
+.conic__div:hover {
   cursor: pointer;
   transition: .3s ease;
   transform: scale(1.05);
