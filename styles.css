@@ -20,7 +20,8 @@ html, body {
 
 #top {
   position: relative;
-  top: 0;
+  top: -1rem;
+  height: 5rem
 }
 
 /* Nav Bar Menu settings */
@@ -87,6 +88,7 @@ a:active {
     #0f0c29,
     #302b63
   );
+  border: .2rem solid #2b2b2b;
 }
 
 /* Deep Ocean */
@@ -99,6 +101,7 @@ a:active {
     #1a2980,
     #26d0ce
   );
+  border: .2rem solid #2b2b2b;
 }
 
 /* Late Sunset */
@@ -111,6 +114,7 @@ a:active {
     #f12711,
     #f5af19
   );
+  border: .2rem solid #2b2b2b;
 }
 
 /* Spring Garden */
@@ -123,6 +127,7 @@ a:active {
     #56ab2f,
     #a8e063
   );
+  border: .2rem solid #2b2b2b;
 }
 
 /* Starry Sky */
@@ -135,6 +140,7 @@ a:active {
     #0f2027,
     #203a43
   );
+  border: .2rem solid #2b2b2b;
 }
 
 /* Night Blossom */
@@ -147,6 +153,7 @@ a:active {
     #da22ff,
     #9733ee
   );
+  border: .2rem solid #2b2b2b;
 }
 
 /* Golden Fields */
@@ -159,6 +166,7 @@ a:active {
     #ffcc33,
     #ffb347
   );
+  border: .2rem solid #2b2b2b;
 }
 
 /* Pastel Harmony */
@@ -171,6 +179,7 @@ a:active {
     #13547a,
     #80d0c7
   );
+  border: .2rem solid #2b2b2b;
 }
 
 /* Polar Aurora */
@@ -183,6 +192,7 @@ a:active {
     #00b09b,
     #96c93d
   );
+  border: .2rem solid #2b2b2b;
 }
 
 /* Seaside Breeze */
@@ -195,6 +205,7 @@ a:active {
     #00d2ff,
     #3a7bd5
   );
+  border: .2rem solid #2b2b2b;
 }
 
 /* Majestic Mountains */
@@ -207,6 +218,7 @@ a:active {
     #6441a5,
     #2a0845
   );
+  border: .2rem solid #2b2b2b;
 }
 
 /* Deep Night */
@@ -219,11 +231,12 @@ a:active {
     #000000,
     #434343
   );
+  border: .2rem solid #2b2b2b;
 }
 /* Linear-gradient colors */
 
-/* radial-gradient colors */
 
+/* radial-gradient colors */
 /* Sunrise */
 .radial__div:nth-of-type(1) {
   width: 300px;
@@ -235,6 +248,7 @@ a:active {
     #ffad00 0%,
     #ffb766 50%
   );
+  border: .2rem solid #2b2b2b;
 }
 
 /* Ocean Breeze */
@@ -248,6 +262,7 @@ a:active {
     #00a8e8 0%,
     #66d0ff 50%
   );
+  border: .2rem solid #2b2b2b;
 }
 
 /* Summer Meadow */
@@ -261,6 +276,7 @@ a:active {
     #a8d838 0%,
     #c7ff6b 50%
   );
+  border: .2rem solid #2b2b2b;
 }
 
 /* Twilight Sky */
@@ -274,6 +290,7 @@ a:active {
     #24234d 0%,
     #5e5371 50%
   );
+  border: .2rem solid #2b2b2b;
 }
 
 /* Golden Glow */
@@ -287,6 +304,7 @@ a:active {
     #ffc800 0%,
     #ffde66 50%
   );
+  border: .2rem solid #2b2b2b;
 }
 
 /* Pink Paradise */
@@ -300,6 +318,7 @@ a:active {
     #ff70a6 0%,
     #ff94c2 50%
   );
+  border: .2rem solid #2b2b2b;
 }
 
 /* Autumn Leaves */
@@ -313,6 +332,7 @@ a:active {
     #e65100 0%,
     #ff7d33 50%
   );
+  border: .2rem solid #2b2b2b;
 }
 
 /* Serene Lake   */
@@ -326,6 +346,7 @@ a:active {
     #008080 0%,
     #00bfbf 50%
   );
+  border: .2rem solid #2b2b2b;
 }
 
 /* Violet Dreams */
@@ -339,6 +360,7 @@ a:active {
     #5b247a 0%,
     #a75bc1 50%
   );
+  border: .2rem solid #2b2b2b;
 }
 
 /* Desert Sands */
@@ -352,6 +374,7 @@ a:active {
     #d6ad67 0%,
     #f0d4aa 50%
   );
+  border: .2rem solid #2b2b2b;
 }
 
 /* Midnight Fire */
@@ -365,6 +388,7 @@ a:active {
     #a70f00 0%,
     #ff331a 50%
   );
+  border: .2rem solid #2b2b2b;
 }
 
 /* Fresh Citrus */
@@ -378,26 +402,221 @@ a:active {
     #d0e800 0%,
     #f0ff66 50%
   );
+  border: .2rem solid #2b2b2b;
 }
 /* Radial-gradient colors */
 
-/* Conic-gradient colors */
 
-/*  */
+/* Conic-gradient colors */
+/* Rainbow Delight */
 .conic__div:nth-of-type(1) {
   width: 300px;
   height: 300px;
   position: relative;
-  border-top-left-radius: 50%;
-  border-top-right-radius: 50%;
-  border-left: transparent;
-  border-right: transparent;
-  margin: 1.5rem ;
-  background: radial-gradient(
-    circle,
-    #d0e800 0%,
-    #f0ff66 50%
-  );
+  margin: 1.5rem;
+  border-radius: 50%;
+  background-image: conic-gradient(
+    #ff0000, 
+    #ff8000,
+    #ffff00,
+    #00ff00,
+    #00ffff,
+    #0000ff,
+    #8000ff);
+    border: .2rem solid #2b2b2b;
+}
+
+/* Pastel Harmony */
+.conic__div:nth-of-type(2) {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  border-radius: 50%;
+  margin: 1.5rem;
+  background-image: conic-gradient(
+    #ffcccc, 
+    #ffd9b3,
+    #ffe6cc,
+    #fff2e6,
+    #f2f2f2,
+    #e6e6e6,
+    #d9d9d9);
+  border: .2rem solid #2b2b2b;
+}
+
+/* Electric Energy */
+.conic__div:nth-of-type(3) {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  border-radius: 50%;
+  margin: 1.5rem;
+  background-image: conic-gradient(
+    #00ff00, 
+    #ffff00,
+    #ff00ff,
+    #0000ff,
+    #00ffff,
+    #ff0000,
+    #00ff00);
+  border: .2rem solid #2b2b2b;
+}
+
+/* Autumn Warmth */
+.conic__div:nth-of-type(4) {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  border-radius: 50%;
+  margin: 1.5rem;
+  background-image: conic-gradient(
+    #ff9933, 
+    #cc6600,
+    #e67300,
+    #ff8000,
+    #ff9966,
+    #cc6600,
+    #e67300);
+  border: .2rem solid #2b2b2b;
+}
+
+/* Sunflower Fields */
+.conic__div:nth-of-type(5) {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  border-radius: 50%;
+  margin: 1.5rem;
+  background-image: conic-gradient(
+    #ff9900, 
+    #ffcc00,
+    #ffff00,
+    #ccff00,
+    #99ff00,
+    #66cc00,
+    #339900);
+  border: .2rem solid #2b2b2b;
+}
+
+/* Ocean Depths */
+.conic__div:nth-of-type(6) {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  border-radius: 50%;
+  margin: 1.5rem;
+  background-image: conic-gradient(
+    #003333, 
+    #005555,
+    #007777,
+    #009999,
+    #00bbbb,
+    #00dddd,
+    #00ffff);
+  border: .2rem solid #2b2b2b;
+}
+
+/* Violet Haze */
+.conic__div:nth-of-type(7) {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  border-radius: 50%;
+  margin: 1.5rem;
+  background-image: conic-gradient(
+    #663399, 
+    #9966cc,
+    #cc99ff,
+    #d9b3ff,
+    #e6ccff,
+    #f2e6ff,
+    #ffffff);
+  border: .2rem solid #2b2b2b;
+}
+
+/* Midnight Sky */
+.conic__div:nth-of-type(8) {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  border-radius: 50%;
+  margin: 1.5rem;
+  background-image: conic-gradient(
+    #000033, 
+    #000066,
+    #000099,
+    #0000cc,
+    #0000ff,
+    #0000cc,
+    #000099);
+  border: .2rem solid #2b2b2b;
+}
+
+/* Candy Crush */
+.conic__div:nth-of-type(9) {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  border-radius: 50%;
+  margin: 1.5rem;
+  background-image: conic-gradient(
+    #ff99cc, 
+    #ff66b3,
+    #ff3399,
+    #ff0080,
+    #ff0066,
+    #ff004d,
+    #ff0033);
+  border: .2rem solid #2b2b2b;
+}
+
+/* Forest Canopy */
+.conic__div:nth-of-type(10) {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  border-radius: 50%;
+  margin: 1.5rem;
+  background-image: conic-gradient(
+    #003300, 
+    #004d00,
+    #006600,
+    #008000,
+    #009900,
+    #00b300,
+    #00cc00);
+  border: .2rem solid #2b2b2b;
+}
+
+/* Cherry Blossom */
+.conic__div:nth-of-type(11) {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  border-radius: 50%;
+  margin: 1.5rem;
+  background-image: conic-gradient(
+    #ff6699,
+    #ffb3d1);
+  border: .2rem solid #2b2b2b;
+}
+
+/* Summer Sunset */
+.conic__div:nth-of-type(12) {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  border-radius: 50%;
+  margin: 1.5rem;
+  background-image: conic-gradient(
+    #ff6633, 
+    #ff9966,
+    #ffb399,
+    #ffd9cc,
+    #ffffff,
+    #ffd9cc,
+    #ffb399);
+  border: .2rem solid #2b2b2b;
 }
 
 /* Gradient Functionalities */
@@ -429,6 +648,14 @@ a:active {
   background-color: #ddffee;
   padding-top: 4.5rem;
   padding-bottom: 4.5rem;
+  box-shadow:
+  .25rem .25rem .2rem rgba(0, 0, 0, 0.037),
+  .65rem .65rem .5rem rgba(0, 0, 0, 0.053),
+  1rem 1rem 1rem rgba(0, 0, 0, 0.065),
+  2rem 2rem 1.75rem rgba(0, 0, 0, 0.077),
+  4rem 4rem 3rem rgba(0, 0, 0, 0.093),
+  10rem 10rem 8rem rgba(0, 0, 0, 0.13)
+;
 }
 
 .heading-colors {
