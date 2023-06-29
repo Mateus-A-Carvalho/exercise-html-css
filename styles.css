@@ -69,9 +69,6 @@ li.menu__list-items:hover {
 
 li.menu__list-items a:active {
   background-color: #fbfbfb;
-}
-
-a:active {
   color: #2b2b2b;
 }
 /* Nav Bar Menu functionalities */
@@ -600,7 +597,7 @@ a:active {
 
 .content-color:nth-of-type(3) {
   margin: 3.5rem auto 0;
-  margin: 5rem;
+  margin-bottom: 5rem;
   max-width: 120rem;
   display: flex;
   justify-content: center;
@@ -627,6 +624,14 @@ a:active {
   margin: 0;
   margin-bottom: 3rem;
   color: #423D3C;
+}
+
+.heading-descriptions {
+  text-align: center;
+  color: #fbfbfb;
+  font-size: 4.5rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
 }
 
 .name__color {
@@ -667,17 +672,19 @@ a:active {
   text-align: center;
   display: block;
   font-size: 1.6rem;
+  font-weight: bold;
   margin: 10rem auto;
   padding: 1.5rem;
-  color: #fbfbfb;
+  background-color: #ddffee;
+  color: #2b2b2b;
   font-family: monospace;
-  border: .2rem solid #cdcdcd;
+  border: .2rem solid #2b2b2b;
   border-radius: var(--bdrs);
 }
 
 .code::selection {
-  background-color: #fbfbfb;
-  color: #262626;
+  background-color: #2b2b2b;
+  color: #ddffee  ;
 }
 
 .inline-code {
@@ -690,7 +697,7 @@ a:active {
 .footer {
   background-color:#390255;
   width: 100%;
-  height: 15rem;
+  height: 20rem;
   /* padding: relative; */
   bottom: 0;
 }
