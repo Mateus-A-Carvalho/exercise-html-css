@@ -693,15 +693,34 @@ li.menu__list-items a:active {
 }
 /* Patterns classes */
 
-
 .footer {
   background-color:#390255;
   width: 100%;
   height: 20rem;
-  /* padding: relative; */
+  position: relative;
   bottom: 0;
 }
 
-.icons {
-  font-size: 5rem;
+.social-media {
+  display: flex;
+  height: 100%;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
 }
+
+.social-media a {
+  display: block;
+  font-size: 10rem;
+  margin: auto;
+}
+
+.icons {
+  color: #c4a2fa;  
+}
+
+.icons:hover {
+  transform: scale(1.1);
+  transition: .3s ease-in-out;
+}
+
