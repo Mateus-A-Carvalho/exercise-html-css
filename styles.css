@@ -734,7 +734,7 @@ li.menu__list-items a:active {
   
   ul.menu__list {
     display: block;
-    text-align: center;
+    text-align: left;
   }
 
   ul li.menu__list-items {
