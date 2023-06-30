@@ -730,25 +730,16 @@ li.menu__list-items a:active {
 @media (min-width:320px) and (max-width:768px) {
   nav.menu {
     display: none;
-    /* text-align: center; */
-    /* height: 50vh; */
   }
-
-  ul .menu__list {
-    /* border: none; */
-    display: flex;
-    flex-flow: column nowrap;
-  }
-
-  /* .social-media {
-    display: flex;
-    flex-flow: column nowrap;
-  }
-
-  .social-media a {
+  
+  ul.menu__list {
     display: block;
-    font-size: 3rem;
-  } */
+    text-align: center;
+  }
+
+  ul li.menu__list-items {
+    border: none;
+  }
 
   .close-menu-label::after {
     content: '≡';
@@ -766,8 +757,9 @@ li.menu__list-items a:active {
     z-index: 4;
   }
 
-  .close-menu::checked~.menu {
-    display: block;
-  }
+  .close-menu:checked~.menu {
+    display: block; 
+     }
+ 
 }
 
