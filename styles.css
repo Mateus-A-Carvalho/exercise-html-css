@@ -727,9 +727,13 @@ li.menu__list-items a:active {
  display: none;
 }
 
+
+/* RESPONSIVITY */
 @media (min-width:320px) and (max-width:768px) {
   nav.menu {
-    display: none;
+    transform: scale(1, 0);
+    transition: transform .25s ease-in-out;
+    transform-origin: top;
   }
   
   ul.menu__list {
@@ -740,6 +744,10 @@ li.menu__list-items a:active {
   ul li.menu__list-items {
     border: none;
   }
+
+  li.menu__list-items a:active {
+    background-color: #fff;
+  }  
 
   .close-menu-label::after {
     content: '𝄘';
@@ -776,9 +784,7 @@ li.menu__list-items a:active {
   }
 
   .close-menu:checked~.menu {
-    display: block; 
-    transition: .3s ease-in-out 
+    transform: scale(1,1)
      }
- 
 }
 
