@@ -1,5 +1,6 @@
 :root {
   --bdrs: .5rem;
+  --white-color: #f3f3f3
 }
 
 * {
@@ -731,27 +732,34 @@ li.menu__list-items a:active {
 /* RESPONSIVITY */
 @media (min-width:320px) and (max-width:768px) {
   nav.menu {
-    transform: scale(1, 0);
-    transition: transform .25s ease-in-out;
-    transform-origin: top;
+    transform: scale(0, 1);
+    transition: transform .2s ease-in-out;
+    transform-origin: left;
   }
   
   ul.menu__list {
     display: block;
     text-align: left;
+    padding-left: 1rem;
   }
 
   ul li.menu__list-items {
     border: none;
   }
 
-  li.menu__list-items a:active {
-    background-color: #fff;
+  ul.menu__list li.menu__list-items a:active {
+    background-color: #4d4d4d;
+    color: var(--white-color)  ;
+    border-radius: var(--bdrs);
   }  
+
+  ul.menu__list li.menu__list-items:hover {
+    background-color: transparent;
+  }
 
   .close-menu-label::after {
     content: '𝄘';
-    border-radius: 50%;
+    border-radius: 30%;
     position: fixed;
     top: 1.5rem;
     right: 1.5rem;
