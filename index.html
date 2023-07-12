@@ -17,8 +17,7 @@
   <input type="checkbox" name="" class="close-menu" id="close-menu" aria-label="Close Menu">
   <label for="close-menu" title="close-menu" class="close-menu-label"></label>
   <nav class="menu">
-    <ul class="menu__list">
-      <li class="menu__list-items"><a href="#top">top</a></li>
+    <ul onclick="getElementById('close-menu').checked = false;" class="menu__list">
       <li class="menu__list-items"><a href="#linear">linear-gradient</a></li>
       <li class="menu__list-items"><a href="#radial">radial-gradient</a></li>
       <li class="menu__list-items"><a href="#conic">conic-gradient</a></li>
@@ -333,5 +332,7 @@
       <a href="https://www.linkedin.com/in/mateus-a-carvalho/" target="_blank"><i class="fa-brands fa-linkedin icons"></i></a>
     </div>
   </footer>
+
+  <script src="/index.js"></script>
   </body>
 </html>

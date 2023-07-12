@@ -749,8 +749,7 @@ li.menu__list-items a:active {
 
   ul.menu__list li.menu__list-items a:active {
     background-color: #4d4d4d;
-    color: var(--white-color)  ;
-    border-radius: var(--bdrs);
+    color: var(--white-color);
   }  
 
   ul.menu__list li.menu__list-items:hover {
@@ -759,7 +758,7 @@ li.menu__list-items a:active {
 
   .close-menu-label::after {
     content: '𝄘';
-    border-radius: 30%;
+    border-radius: var(--bdrs);
     position: fixed;
     top: 1.5rem;
     right: 1.5rem;
@@ -776,7 +775,7 @@ li.menu__list-items a:active {
 
   .close-menu:checked~.close-menu-label::after {
     content: '🗙';
-    border-radius: 50%;
+    border-radius: var(--bdrs);
     position: fixed;
     top: 1.5rem;
     right: 1.5rem;
@@ -796,3 +795,9 @@ li.menu__list-items a:active {
      }
 }
 
+@media(min-width: 768px) and (max-width: 1024px) {
+  ul.menu__list {
+    display: block;
+    text-align: center;
+  }
+}
