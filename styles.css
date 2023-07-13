@@ -574,8 +574,9 @@ li.menu__list-items a:active {
   border-radius: var(--bdrs);
 }
 
-.content-color {
-  margin: 3.5rem auto 0;
+.content-color:nth-of-type(1) {
+  margin: 12rem auto;
+  margin-bottom: 3.5rem;
   max-width: 120rem;
   display: flex;
   justify-content: center;
@@ -590,12 +591,30 @@ li.menu__list-items a:active {
   1rem 1rem 1rem rgba(0, 0, 0, 0.065),
   2rem 2rem 1.75rem rgba(0, 0, 0, 0.077),
   4rem 4rem 3rem rgba(0, 0, 0, 0.093),
-  10rem 10rem 8rem rgba(0, 0, 0, 0.13)
-;
+  10rem 10rem 8rem rgba(0, 0, 0, 0.13);
+}
+
+.content-color {
+  margin: 3.5rem auto;
+  max-width: 120rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #ddffee;
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
+  box-shadow:
+  .25rem .25rem .2rem rgba(0, 0, 0, 0.037),
+  .65rem .65rem .5rem rgba(0, 0, 0, 0.053),
+  1rem 1rem 1rem rgba(0, 0, 0, 0.065),
+  2rem 2rem 1.75rem rgba(0, 0, 0, 0.077),
+  4rem 4rem 3rem rgba(0, 0, 0, 0.093),
+  10rem 10rem 8rem rgba(0, 0, 0, 0.13);
 }
 
 .content-color:nth-of-type(3) {
-  margin: 3.5rem auto 0;
+  margin: 3.5rem auto;
   margin-bottom: 5rem;
   max-width: 120rem;
   display: flex;
@@ -692,6 +711,8 @@ li.menu__list-items a:active {
 }
 /* Patterns classes */
 
+
+/* Footer */
 .footer {
   background-color:#390255;
   width: 100%;
@@ -706,6 +727,7 @@ li.menu__list-items a:active {
   justify-content: space-around;
   align-items: center;
   margin: 0 auto;
+  padding: 5rem;
 }
 
 .social-media a {
@@ -723,14 +745,14 @@ li.menu__list-items a:active {
   transition: .3s ease-in-out;
 }
 
-
 .close-menu {
  display: none;
 }
 
 
 /* RESPONSIVITY */
-@media (min-width:320px) and (max-width:768px) {
+/* NavBar functionalities */
+@media (min-width:320px) and (max-width: 768px) {
   nav.menu {
     transform: scale(0, 1);
     transition: transform .2s ease-in-out;
@@ -795,9 +817,36 @@ li.menu__list-items a:active {
      }
 }
 
-@media(min-width: 768px) and (max-width: 1024px) {
+@media(min-width: 768px) and (max-width: 1023px){
   ul.menu__list {
     display: block;
     text-align: center;
   }
+}
+
+/* Footer MediaQuery */
+@media(min-width:320px) and (max-width: 767px) {
+  .social-media {
+    display: grid;
+    padding: 3rem;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+  }
+}
+
+@media(min-width: 768px) and (max-width: 1024px) {
+  .social-media {
+    max-width: 120rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .social-media a {
+    display: block;
+    font-size: 10rem;
+    margin: auto;
+  }    
 }
