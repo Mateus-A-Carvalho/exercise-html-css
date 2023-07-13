@@ -664,7 +664,7 @@ li.menu__list-items a:active {
 .content-text {
   max-width: 120rem;
   width: 90%;
-  margin: 0 auto;
+  margin: 3.5rem auto;
 }
 
 .text {
@@ -815,13 +815,76 @@ li.menu__list-items a:active {
   .close-menu:checked~.menu {
     transform: scale(1,1)
      }
+
+  .content-color:nth-of-type(1) {
+  margin: 6rem auto;
+  margin-bottom: 3.5rem;
+  max-width: 120rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #ddffee;
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
+  box-shadow:
+  .25rem .25rem .2rem rgba(0, 0, 0, 0.037),
+  .65rem .65rem .5rem rgba(0, 0, 0, 0.053),
+  1rem 1rem 1rem rgba(0, 0, 0, 0.065),
+  2rem 2rem 1.75rem rgba(0, 0, 0, 0.077),
+  4rem 4rem 3rem rgba(0, 0, 0, 0.093),
+  10rem 10rem 8rem rgba(0, 0, 0, 0.13);
+  }
+
+  .heading-colors {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 3.4rem;
+    margin: 0;
+    margin-bottom: 3rem;
+    color: #423D3C;
+  }
+
+  .heading-descriptions {
+    margin: 1.5rem auto;
+  }
+
+  .heading-descriptions,
+  .name__color {
+    font-size: 2.4rem;
+  }
+
+  .text,
+  .content {
+    padding: 1.4rem;
+  }
+
+  .text,
+  .code,
+  .inline-code {
+    font-size: 1.4rem;
+  }
+
+  .text > .code {
+    margin: 2rem 0;
+  }
+
+  .content__list-items {
+    padding: 1rem;
+  }
 }
 
 @media(min-width: 768px) and (max-width: 1023px){
-  ul.menu__list {
-    display: block;
-    text-align: center;
+  l.menu__list {
+    max-width: 120rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
   }
+
 }
 
 /* Footer MediaQuery */
@@ -834,7 +897,7 @@ li.menu__list-items a:active {
   }
 }
 
-@media(min-width: 768px) and (max-width: 1024px) {
+@media(min-width: 768px) and (max-width: 1023px) {
   .social-media {
     max-width: 120rem;
     display: flex;
@@ -850,3 +913,11 @@ li.menu__list-items a:active {
     margin: auto;
   }    
 }
+
+@media(min-width: 320px) and (max-width: 1339px) {
+  .content-color {
+    width: 90%;
+  }
+}
+
+
